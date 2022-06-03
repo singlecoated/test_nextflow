@@ -1,0 +1,26 @@
+N E X T F L O W  ~  version 22.04.3
+Launching `test5.nf` [mad_mclean] DSL2 - revision: 5b1a99f561
+Downloading plugin nf-tower@1.4.0
+
+BIOCORE@CRG - N F TESTPIPE  ~  version 1.0
+=============================================
+reads                           : /home/ec2-user/git/CoursesCRG_Containers_Nextflow_May_2022/nextflow/test5/../../testdata/*.fastq.gz
+reference                       : /home/ec2-user/git/CoursesCRG_Containers_Nextflow_May_2022/nextflow/test5/../../testdata/chr19.fasta.gz
+
+Monitor the execution with Nextflow Tower using this url https://tower.nf/user/oscar-reina/watch/3KCl8cSFV4UV3D
+Pulling Singularity image docker://quay.io/biocontainers/fastqc:0.11.9--0 [cache /home/ec2-user/git/CoursesCRG_Containers_Nextflow_May_2022/nextflow/test5/singularity/quay.io-biocontainers-fastqc-0.11.9--0.img]
+Pulling Singularity image docker://quay.io/biocontainers/bowtie:1.2.3--py37hc9558a2_0 [cache /home/ec2-user/git/CoursesCRG_Containers_Nextflow_May_2022/nextflow/test5/singularity/quay.io-biocontainers-bowtie-1.2.3--py37hc9558a2_0.img]
+[6c/c59bbb] Submitted process > BOWTIE:bowtieIdx (chr19.fasta.gz)
+[e5/bd0acf] Submitted process > fastqc (B7_input_s_chr19.fastq.gz)
+[8d/ac286f] Submitted process > fastqc (B7_H3K4me1_s_chr19.fastq.gz)
+[b9/a1cb27] Submitted process > BOWTIE:bowtieAln (B7_H3K4me1_s_chr19.fastq.gz)
+/home/ec2-user/git/CoursesCRG_Containers_Nextflow_May_2022/nextflow/test5/work/b9/a1cb27b21459a89fef8e58fd26fe5e/B7_H3K4me1_s_chr19.fastq.gz.sam
+/home/ec2-user/git/CoursesCRG_Containers_Nextflow_May_2022/nextflow/test5/work/b9/a1cb27b21459a89fef8e58fd26fe5e/B7_H3K4me1_s_chr19.fastq.gz.log
+[c6/ebcfe1] Submitted process > BOWTIE:bowtieAln (B7_input_s_chr19.fastq.gz)
+/home/ec2-user/git/CoursesCRG_Containers_Nextflow_May_2022/nextflow/test5/work/c6/ebcfe13a14eda72d1cabcdd52e876a/B7_input_s_chr19.fastq.gz.sam
+/home/ec2-user/git/CoursesCRG_Containers_Nextflow_May_2022/nextflow/test5/work/c6/ebcfe13a14eda72d1cabcdd52e876a/B7_input_s_chr19.fastq.gz.log
+Pulling Singularity image docker://quay.io/biocontainers/multiqc:1.9--pyh9f0ad1d_0 [cache /home/ec2-user/git/CoursesCRG_Containers_Nextflow_May_2022/nextflow/test5/singularity/quay.io-biocontainers-multiqc-1.9--pyh9f0ad1d_0.img]
+[08/8c98de] Submitted process > multiqc
+
+Done! Open the following report in your browser --> ouptut_multiQC/multiqc_report.html
+

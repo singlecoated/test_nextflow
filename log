@@ -1,0 +1,21 @@
+N E X T F L O W  ~  version 22.04.3
+Launching `test5.nf` [prickly_tesla] DSL2 - revision: 5b1a99f561
+
+BIOCORE@CRG - N F TESTPIPE  ~  version 1.0
+=============================================
+reads                           : /home/ec2-user/git/CoursesCRG_Containers_Nextflow_May_2022/nextflow/test5/../../testdata/*.fastq.gz
+reference                       : /home/ec2-user/git/CoursesCRG_Containers_Nextflow_May_2022/nextflow/test5/../../testdata/chr19.fasta.gz
+
+[69/129cef] Submitted process > BOWTIE:bowtieIdx (chr19.fasta.gz)
+[81/02e1c1] Submitted process > fastqc (B7_H3K4me1_s_chr19.fastq.gz)
+[d2/b8f0c8] Submitted process > fastqc (B7_input_s_chr19.fastq.gz)
+[44/8b9fb0] Submitted process > BOWTIE:bowtieAln (B7_H3K4me1_s_chr19.fastq.gz)
+/home/ec2-user/git/CoursesCRG_Containers_Nextflow_May_2022/nextflow/test5/work/44/8b9fb07b77a4c1ab4228db036b50d5/B7_H3K4me1_s_chr19.fastq.gz.sam
+/home/ec2-user/git/CoursesCRG_Containers_Nextflow_May_2022/nextflow/test5/work/44/8b9fb07b77a4c1ab4228db036b50d5/B7_H3K4me1_s_chr19.fastq.gz.log
+[f5/3eae68] Submitted process > BOWTIE:bowtieAln (B7_input_s_chr19.fastq.gz)
+/home/ec2-user/git/CoursesCRG_Containers_Nextflow_May_2022/nextflow/test5/work/f5/3eae689455b6606386c41f05f31768/B7_input_s_chr19.fastq.gz.sam
+/home/ec2-user/git/CoursesCRG_Containers_Nextflow_May_2022/nextflow/test5/work/f5/3eae689455b6606386c41f05f31768/B7_input_s_chr19.fastq.gz.log
+[a9/1972b9] Submitted process > multiqc
+
+Done! Open the following report in your browser --> ouptut_multiQC/multiqc_report.html
+
